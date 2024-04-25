@@ -1,2 +1,2 @@
 # travel-assistant
-App for MacOS powered by OpenAI model.
+App for macOS powered by OpenAI model.
