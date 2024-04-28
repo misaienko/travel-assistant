@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841CB9222BC1E4FA00FD38CB /* LinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841CB9202BC1E4FA00FD38CB /* LinksViewController.m */; };
+		841CB9232BC1E4FA00FD38CB /* LinksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841CB9212BC1E4FA00FD38CB /* LinksViewController.xib */; };
+		841CB9272BC1E8D800FD38CB /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841CB9252BC1E8D800FD38CB /* DisplayViewController.m */; };
+		841CB9282BC1E8D800FD38CB /* DisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841CB9262BC1E8D800FD38CB /* DisplayViewController.xib */; };
+		842CAB192BC316C600A5CEBC /* BookingLinks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8424C2C22BB7463E001C02AE /* BookingLinks.plist */; };
+		8439E1AE2BB0D3B80053ECC7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439E1AD2BB0D3B80053ECC7 /* HomeViewController.m */; };
+		8439E1B22BB0D4050053ECC7 /* EmergencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439E1B02BB0D4050053ECC7 /* EmergencyViewController.m */; };
+		8439E1B72BB0D4790053ECC7 /* BookingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439E1B52BB0D4790053ECC7 /* BookingsViewController.m */; };
+		8439E1BC2BB0D4FA0053ECC7 /* InspirationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439E1BA2BB0D4FA0053ECC7 /* InspirationViewController.m */; };
+		8439E1BF2BB37CE20053ECC7 /* EmergencyContacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8439E1BE2BB37CE20053ECC7 /* EmergencyContacts.plist */; };
+		849B172F2B632CE80038C543 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B172E2B632CE80038C543 /* AppDelegate.m */; };
+		849B17322B632CE80038C543 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B17312B632CE80038C543 /* ViewController.m */; };
+		849B17342B632CED0038C543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849B17332B632CED0038C543 /* Assets.xcassets */; };
+		849B17372B632CED0038C543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849B17352B632CED0038C543 /* Main.storyboard */; };
+		849B17392B632CED0038C543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B17382B632CED0038C543 /* main.m */; };
+		849B17442B632CEE0038C543 /* TravelAssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B17432B632CEE0038C543 /* TravelAssistantTests.m */; };
+		849B174E2B632CEE0038C543 /* TravelAssistantUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B174D2B632CEE0038C543 /* TravelAssistantUITests.m */; };
+		849B17502B632CEE0038C543 /* TravelAssistantUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B174F2B632CEE0038C543 /* TravelAssistantUITestsLaunchTests.m */; };
+		84AFD29E2BC79D1700300D28 /* RecordedChoices.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AFD29C2BC79D1700300D28 /* RecordedChoices.m */; };
+		84AFD29F2BC79D1700300D28 /* RecordedChoices.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AFD29D2BC79D1700300D28 /* RecordedChoices.xib */; };
+		84B79BBE2B8462770026B2A0 /* OpenAIRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B79BBD2B8462770026B2A0 /* OpenAIRequestManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849B17402B632CEE0038C543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849B17222B632CE70038C543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849B17292B632CE80038C543;
+			remoteInfo = TravelAssistant;
+		};
+		849B174A2B632CEE0038C543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849B17222B632CE70038C543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849B17292B632CE80038C543;
+			remoteInfo = TravelAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		841CB9202BC1E4FA00FD38CB /* LinksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinksViewController.m; sourceTree = "<group>"; };
+		841CB9212BC1E4FA00FD38CB /* LinksViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LinksViewController.xib; sourceTree = "<group>"; };
+		841CB9242BC1E8D800FD38CB /* DisplayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		841CB9252BC1E8D800FD38CB /* DisplayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		841CB9262BC1E8D800FD38CB /* DisplayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayViewController.xib; sourceTree = "<group>"; };
+		8424C2C22BB7463E001C02AE /* BookingLinks.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BookingLinks.plist; sourceTree = "<group>"; };
+		8439E1AC2BB0D3B80053ECC7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8439E1AD2BB0D3B80053ECC7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8439E1AF2BB0D4050053ECC7 /* EmergencyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmergencyViewController.h; sourceTree = "<group>"; };
+		8439E1B02BB0D4050053ECC7 /* EmergencyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmergencyViewController.m; sourceTree = "<group>"; };
+		8439E1B42BB0D4790053ECC7 /* BookingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookingsViewController.h; sourceTree = "<group>"; };
+		8439E1B52BB0D4790053ECC7 /* BookingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookingsViewController.m; sourceTree = "<group>"; };
+		8439E1B92BB0D4FA0053ECC7 /* InspirationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InspirationViewController.h; sourceTree = "<group>"; };
+		8439E1BA2BB0D4FA0053ECC7 /* InspirationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InspirationViewController.m; sourceTree = "<group>"; };
+		8439E1BE2BB37CE20053ECC7 /* EmergencyContacts.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = EmergencyContacts.plist; sourceTree = "<group>"; };
+		849B172A2B632CE80038C543 /* TravelAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849B172D2B632CE80038C543 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849B172E2B632CE80038C543 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849B17302B632CE80038C543 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		849B17312B632CE80038C543 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		849B17332B632CED0038C543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849B17362B632CED0038C543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849B17382B632CED0038C543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849B173A2B632CED0038C543 /* TravelAssistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TravelAssistant.entitlements; sourceTree = "<group>"; };
+		849B173F2B632CEE0038C543 /* TravelAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849B17432B632CEE0038C543 /* TravelAssistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelAssistantTests.m; sourceTree = "<group>"; };
+		849B17492B632CEE0038C543 /* TravelAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849B174D2B632CEE0038C543 /* TravelAssistantUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelAssistantUITests.m; sourceTree = "<group>"; };
+		849B174F2B632CEE0038C543 /* TravelAssistantUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelAssistantUITestsLaunchTests.m; sourceTree = "<group>"; };
+		84AFD2952BC794CD00300D28 /* LinksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinksViewController.h; sourceTree = "<group>"; };
+		84AFD29B2BC79D1700300D28 /* RecordedChoices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordedChoices.h; sourceTree = "<group>"; };
+		84AFD29C2BC79D1700300D28 /* RecordedChoices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordedChoices.m; sourceTree = "<group>"; };
+		84AFD29D2BC79D1700300D28 /* RecordedChoices.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordedChoices.xib; sourceTree = "<group>"; };
+		84B79BBD2B8462770026B2A0 /* OpenAIRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenAIRequestManager.m; sourceTree = "<group>"; };
+		84B79BBF2B8462BF0026B2A0 /* OpenAIRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenAIRequestManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849B17272B632CE80038C543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849B173C2B632CEE0038C543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849B17462B632CEE0038C543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8497A6692BC48F4200402E87 /* BookingLinks */ = {
+			isa = PBXGroup;
+			children = (
+				8424C2C22BB7463E001C02AE /* BookingLinks.plist */,
+				841CB9202BC1E4FA00FD38CB /* LinksViewController.m */,
+				84AFD2952BC794CD00300D28 /* LinksViewController.h */,
+				841CB9252BC1E8D800FD38CB /* DisplayViewController.m */,
+				841CB9242BC1E8D800FD38CB /* DisplayViewController.h */,
+			);
+			path = BookingLinks;
+			sourceTree = "<group>";
+		};
+		8497A66A2BC48F9500402E87 /* Emergency */ = {
+			isa = PBXGroup;
+			children = (
+				8439E1B02BB0D4050053ECC7 /* EmergencyViewController.m */,
+				8439E1AF2BB0D4050053ECC7 /* EmergencyViewController.h */,
+				8439E1BE2BB37CE20053ECC7 /* EmergencyContacts.plist */,
+			);
+			path = Emergency;
+			sourceTree = "<group>";
+		};
+		8497A66B2BC48FC600402E87 /* Inspiration */ = {
+			isa = PBXGroup;
+			children = (
+				8439E1BA2BB0D4FA0053ECC7 /* InspirationViewController.m */,
+				8439E1B92BB0D4FA0053ECC7 /* InspirationViewController.h */,
+			);
+			path = Inspiration;
+			sourceTree = "<group>";
+		};
+		8497A66C2BC4901600402E87 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				84B79BBD2B8462770026B2A0 /* OpenAIRequestManager.m */,
+				84B79BBF2B8462BF0026B2A0 /* OpenAIRequestManager.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		8497A66D2BC4904500402E87 /* MyBookings */ = {
+			isa = PBXGroup;
+			children = (
+				8439E1B52BB0D4790053ECC7 /* BookingsViewController.m */,
+				8439E1B42BB0D4790053ECC7 /* BookingsViewController.h */,
+			);
+			path = MyBookings;
+			sourceTree = "<group>";
+		};
+		8497A66E2BC4907C00402E87 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8439E1AD2BB0D3B80053ECC7 /* HomeViewController.m */,
+				8439E1AC2BB0D3B80053ECC7 /* HomeViewController.h */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		849B17212B632CE70038C543 = {
+			isa = PBXGroup;
+			children = (
+				849B172C2B632CE80038C543 /* TravelAssistant */,
+				849B17422B632CEE0038C543 /* TravelAssistantTests */,
+				849B174C2B632CEE0038C543 /* TravelAssistantUITests */,
+				849B172B2B632CE80038C543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849B172B2B632CE80038C543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849B172A2B632CE80038C543 /* TravelAssistant.app */,
+				849B173F2B632CEE0038C543 /* TravelAssistantTests.xctest */,
+				849B17492B632CEE0038C543 /* TravelAssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849B172C2B632CE80038C543 /* TravelAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				84AFD29A2BC79C2000300D28 /* Recorded */,
+				8497A66E2BC4907C00402E87 /* Home */,
+				8497A66D2BC4904500402E87 /* MyBookings */,
+				8497A66C2BC4901600402E87 /* API */,
+				8497A66B2BC48FC600402E87 /* Inspiration */,
+				8497A66A2BC48F9500402E87 /* Emergency */,
+				8497A6692BC48F4200402E87 /* BookingLinks */,
+				849B172D2B632CE80038C543 /* AppDelegate.h */,
+				849B172E2B632CE80038C543 /* AppDelegate.m */,
+				849B17302B632CE80038C543 /* ViewController.h */,
+				849B17312B632CE80038C543 /* ViewController.m */,
+				849B17332B632CED0038C543 /* Assets.xcassets */,
+				849B17352B632CED0038C543 /* Main.storyboard */,
+				849B17382B632CED0038C543 /* main.m */,
+				849B173A2B632CED0038C543 /* TravelAssistant.entitlements */,
+				841CB9212BC1E4FA00FD38CB /* LinksViewController.xib */,
+				841CB9262BC1E8D800FD38CB /* DisplayViewController.xib */,
+				84AFD29D2BC79D1700300D28 /* RecordedChoices.xib */,
+			);
+			path = TravelAssistant;
+			sourceTree = "<group>";
+		};
+		849B17422B632CEE0038C543 /* TravelAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				849B17432B632CEE0038C543 /* TravelAssistantTests.m */,
+			);
+			path = TravelAssistantTests;
+			sourceTree = "<group>";
+		};
+		849B174C2B632CEE0038C543 /* TravelAssistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				849B174D2B632CEE0038C543 /* TravelAssistantUITests.m */,
+				849B174F2B632CEE0038C543 /* TravelAssistantUITestsLaunchTests.m */,
+			);
+			path = TravelAssistantUITests;
+			sourceTree = "<group>";
+		};
+		84AFD29A2BC79C2000300D28 /* Recorded */ = {
+			isa = PBXGroup;
+			children = (
+				84AFD29C2BC79D1700300D28 /* RecordedChoices.m */,
+				84AFD29B2BC79D1700300D28 /* RecordedChoices.h */,
+			);
+			path = Recorded;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849B17292B632CE80038C543 /* TravelAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849B17532B632CEE0038C543 /* Build configuration list for PBXNativeTarget "TravelAssistant" */;
+			buildPhases = (
+				849B17262B632CE80038C543 /* Sources */,
+				849B17272B632CE80038C543 /* Frameworks */,
+				849B17282B632CE80038C543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelAssistant;
+			productName = TravelAssistant;
+			productReference = 849B172A2B632CE80038C543 /* TravelAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849B173E2B632CEE0038C543 /* TravelAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849B17562B632CEE0038C543 /* Build configuration list for PBXNativeTarget "TravelAssistantTests" */;
+			buildPhases = (
+				849B173B2B632CEE0038C543 /* Sources */,
+				849B173C2B632CEE0038C543 /* Frameworks */,
+				849B173D2B632CEE0038C543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849B17412B632CEE0038C543 /* PBXTargetDependency */,
+			);
+			name = TravelAssistantTests;
+			productName = TravelAssistantTests;
+			productReference = 849B173F2B632CEE0038C543 /* TravelAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		849B17482B632CEE0038C543 /* TravelAssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849B17592B632CEE0038C543 /* Build configuration list for PBXNativeTarget "TravelAssistantUITests" */;
+			buildPhases = (
+				849B17452B632CEE0038C543 /* Sources */,
+				849B17462B632CEE0038C543 /* Frameworks */,
+				849B17472B632CEE0038C543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849B174B2B632CEE0038C543 /* PBXTargetDependency */,
+			);
+			name = TravelAssistantUITests;
+			productName = TravelAssistantUITests;
+			productReference = 849B17492B632CEE0038C543 /* TravelAssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849B17222B632CE70038C543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					849B17292B632CE80038C543 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					849B173E2B632CEE0038C543 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 849B17292B632CE80038C543;
+					};
+					849B17482B632CEE0038C543 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 849B17292B632CE80038C543;
+					};
+				};
+			};
+			buildConfigurationList = 849B17252B632CE70038C543 /* Build configuration list for PBXProject "TravelAssistant" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849B17212B632CE70038C543;
+			productRefGroup = 849B172B2B632CE80038C543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849B17292B632CE80038C543 /* TravelAssistant */,
+				849B173E2B632CEE0038C543 /* TravelAssistantTests */,
+				849B17482B632CEE0038C543 /* TravelAssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849B17282B632CE80038C543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842CAB192BC316C600A5CEBC /* BookingLinks.plist in Resources */,
+				849B17342B632CED0038C543 /* Assets.xcassets in Resources */,
+				841CB9282BC1E8D800FD38CB /* DisplayViewController.xib in Resources */,
+				841CB9232BC1E4FA00FD38CB /* LinksViewController.xib in Resources */,
+				8439E1BF2BB37CE20053ECC7 /* EmergencyContacts.plist in Resources */,
+				84AFD29F2BC79D1700300D28 /* RecordedChoices.xib in Resources */,
+				849B17372B632CED0038C543 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849B173D2B632CEE0038C543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849B17472B632CEE0038C543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849B17262B632CE80038C543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B17322B632CE80038C543 /* ViewController.m in Sources */,
+				84B79BBE2B8462770026B2A0 /* OpenAIRequestManager.m in Sources */,
+				849B17392B632CED0038C543 /* main.m in Sources */,
+				8439E1AE2BB0D3B80053ECC7 /* HomeViewController.m in Sources */,
+				8439E1B22BB0D4050053ECC7 /* EmergencyViewController.m in Sources */,
+				84AFD29E2BC79D1700300D28 /* RecordedChoices.m in Sources */,
+				841CB9272BC1E8D800FD38CB /* DisplayViewController.m in Sources */,
+				841CB9222BC1E4FA00FD38CB /* LinksViewController.m in Sources */,
+				8439E1BC2BB0D4FA0053ECC7 /* InspirationViewController.m in Sources */,
+				849B172F2B632CE80038C543 /* AppDelegate.m in Sources */,
+				8439E1B72BB0D4790053ECC7 /* BookingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849B173B2B632CEE0038C543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B17442B632CEE0038C543 /* TravelAssistantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849B17452B632CEE0038C543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B174E2B632CEE0038C543 /* TravelAssistantUITests.m in Sources */,
+				849B17502B632CEE0038C543 /* TravelAssistantUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849B17412B632CEE0038C543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849B17292B632CE80038C543 /* TravelAssistant */;
+			targetProxy = 849B17402B632CEE0038C543 /* PBXContainerItemProxy */;
+		};
+		849B174B2B632CEE0038C543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849B17292B632CE80038C543 /* TravelAssistant */;
+			targetProxy = 849B174A2B632CEE0038C543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849B17352B632CED0038C543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849B17362B632CED0038C543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849B17512B632CEE0038C543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		849B17522B632CEE0038C543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		849B17542B632CEE0038C543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TravelAssistant/TravelAssistant.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZAQNJVWPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryna.TravelAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		849B17552B632CEE0038C543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TravelAssistant/TravelAssistant.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZAQNJVWPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryna.TravelAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		849B17572B632CEE0038C543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryna.TravelAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TravelAssistant";
+			};
+			name = Debug;
+		};
+		849B17582B632CEE0038C543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryna.TravelAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TravelAssistant";
+			};
+			name = Release;
+		};
+		849B175A2B632CEE0038C543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryna.TravelAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = TravelAssistant;
+			};
+			name = Debug;
+		};
+		849B175B2B632CEE0038C543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maryna.TravelAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = TravelAssistant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849B17252B632CE70038C543 /* Build configuration list for PBXProject "TravelAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B17512B632CEE0038C543 /* Debug */,
+				849B17522B632CEE0038C543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849B17532B632CEE0038C543 /* Build configuration list for PBXNativeTarget "TravelAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B17542B632CEE0038C543 /* Debug */,
+				849B17552B632CEE0038C543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849B17562B632CEE0038C543 /* Build configuration list for PBXNativeTarget "TravelAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B17572B632CEE0038C543 /* Debug */,
+				849B17582B632CEE0038C543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849B17592B632CEE0038C543 /* Build configuration list for PBXNativeTarget "TravelAssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B175A2B632CEE0038C543 /* Debug */,
+				849B175B2B632CEE0038C543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849B17222B632CE70038C543 /* Project object */;
+}
